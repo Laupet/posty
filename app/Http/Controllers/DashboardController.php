@@ -10,8 +10,7 @@ use Illuminate\Support\Facades\Mail;
 // use MagicLink\Actions\LoginAction;
 // use MagicLink\MagicLink;
 
-class DashboardController extends Controller
-{
+class DashboardController extends Controller {
 
     public function __construct() {
         $this->middleware(['auth']);

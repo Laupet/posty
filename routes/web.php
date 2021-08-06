@@ -38,3 +38,10 @@ Route::delete('/posts/{post}/likes', [PostLikeController::class, 'destroy'])->na
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
+
+Route::get('/test', function () {
+    return view('test');
+});
+
+// Route::get('/test', [LoginController::class, 'index'])->name('login');

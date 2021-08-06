@@ -1,0 +1,21 @@
+
+GET http://localhost/api/posts
+
+###
+
+
+POST http://localhost/api/posts HTTP/1.1
+content-type: application/json
+
+{
+    "user_id": 6,
+    "body": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
+
+
+
+
+###
+
+
+GET https://example.com/comments/1 HTTP/1.1
